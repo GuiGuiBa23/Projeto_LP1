@@ -34,9 +34,7 @@ public class Main {
         c.setTel(telefone); // Lendo como int
 
 
-
         cc.cadastrarCliente(c);
-
 
 
         // Opcional: fechar o scanner
@@ -51,5 +49,5 @@ public class Main {
         System.out.println("CPF: " + c.getCpf());
         System.out.println("Endereço: " + c.getEnder());
         System.out.println("Número de telefone: " + c.getTel());
-    }
+            }
 }
